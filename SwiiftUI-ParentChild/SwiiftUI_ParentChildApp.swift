@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiiftUI_ParentChildApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(homeMenu: HomeMenu.sample)
         }
     }
 }

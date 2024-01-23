@@ -11,6 +11,10 @@
 		B052EAF12B49358C00A79FAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052EAF02B49358C00A79FAF /* ContentView.swift */; };
 		B052EAF32B49358D00A79FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B052EAF22B49358D00A79FAF /* Assets.xcassets */; };
 		B052EAF72B49358D00A79FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B052EAF62B49358D00A79FAF /* Preview Assets.xcassets */; };
+		B052EAFE2B4935D200A79FAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052EAFD2B4935D200A79FAF /* Model.swift */; };
+		B0A5F9182B4F29710083297F /* BookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5F9172B4F29710083297F /* BookingsView.swift */; };
+		B0A5F91A2B4F29910083297F /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5F9192B4F29910083297F /* AppointmentView.swift */; };
+		B0A5F91C2B4F29B80083297F /* ExpenseBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5F91B2B4F29B80083297F /* ExpenseBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		B052EAF22B49358D00A79FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B052EAF42B49358D00A79FAF /* SwiiftUI_ParentChild.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiiftUI_ParentChild.entitlements; sourceTree = "<group>"; };
 		B052EAF62B49358D00A79FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B052EAFD2B4935D200A79FAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B0A5F9172B4F29710083297F /* BookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsView.swift; sourceTree = "<group>"; };
+		B0A5F9192B4F29910083297F /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		B0A5F91B2B4F29B80083297F /* ExpenseBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,10 @@
 		B052EAED2B49358C00A79FAF /* SwiiftUI-ParentChild */ = {
 			isa = PBXGroup;
 			children = (
+				B0A5F9162B4F27BD0083297F /* Children */,
 				B052EAEE2B49358C00A79FAF /* SwiiftUI_ParentChildApp.swift */,
 				B052EAF02B49358C00A79FAF /* ContentView.swift */,
+				B052EAFD2B4935D200A79FAF /* Model.swift */,
 				B052EAF22B49358D00A79FAF /* Assets.xcassets */,
 				B052EAF42B49358D00A79FAF /* SwiiftUI_ParentChild.entitlements */,
 				B052EAF52B49358D00A79FAF /* Preview Content */,
@@ -67,6 +77,16 @@
 				B052EAF62B49358D00A79FAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0A5F9162B4F27BD0083297F /* Children */ = {
+			isa = PBXGroup;
+			children = (
+				B0A5F9172B4F29710083297F /* BookingsView.swift */,
+				B0A5F9192B4F29910083297F /* AppointmentView.swift */,
+				B0A5F91B2B4F29B80083297F /* ExpenseBookView.swift */,
+			);
+			path = Children;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A5F91A2B4F29910083297F /* AppointmentView.swift in Sources */,
+				B0A5F9182B4F29710083297F /* BookingsView.swift in Sources */,
+				B0A5F91C2B4F29B80083297F /* ExpenseBookView.swift in Sources */,
+				B052EAFE2B4935D200A79FAF /* Model.swift in Sources */,
 				B052EAF12B49358C00A79FAF /* ContentView.swift in Sources */,
 				B052EAEF2B49358C00A79FAF /* SwiiftUI_ParentChildApp.swift in Sources */,
 			);
