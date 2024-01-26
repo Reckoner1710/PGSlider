@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct HomeMenu: Hashable, Identifiable {
-    let id: Int
-    let name: String
-    let icon: String
-    let selected: Bool
+struct HomeMenu: PGSliderProtocol {
+    var id: Int
+    var name: String
+    var icon: String
+    var selected: Bool
     
     init(id: Int, name: String, icon: String, selected: Bool) {
         self.id = id
